@@ -1,0 +1,40 @@
+ .menu{
+ 	 font-family: arial, helvetica;
+		background: #e8e8e8;	
+ 
+ }
+ body{
+   body 
+  height: 400px;
+  background-image: url(https://scontent.fgua1-3.fna.fbcdn.net/v/t1.6435-9/73364128_1327069230750081_2867823622876037120_n.png?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=qcQqUiQBJggAX9FwF3F&_nc_ht=scontent.fgua1-3.fna&oh=00_AT9TP0WgDE3fSg24u4LEN-fu_hQz3ij5GyZLGhsXEY_lWA&oe=6253155E);
+background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+
+ }
+ .menu{
+ 	list-style: none;
+    cellpadding: 3;
+ 	padding: 0;
+ 	background: #092327;
+ 	width: 100%;
+ 	max-width: 1000px:
+ 	margin: 0 auto;
+    
+ }
+
+ .menu li a{ 
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 20px;
+ 	display: block;
+ }
+
+ .menu li{
+ 	display: inline-block;
+ 	text-align: center;
+    te
+ }
+.menu li a:hover{
+	background: #ef8354;
+}

@@ -1,0 +1,55 @@
+<html>
+<head>
+   <link rel="stylesheet" href="css/ee.css">
+<title>Exmane de reparacion</title>
+<script>
+function comprobarClave(){
+    clave1 = document.f1.clave1.value
+    clave2 = document.f1.clave2.value
+     
+
+    if (clave1 == "Lopez y Pelen" && clave2 == "Lopez y Pelen"){
+       alert("Los Datos Coinciden...\n Bienvenido");
+        var href =  "dos.html";
+        window.location=href;
+         }
+       
+    else{
+       alert("Las dos claves son distintas...\nIntentelo nuevamente.");
+        var href =  "index.html";
+        window.location=href;
+    };
+       
+}  
+</script>
+</head>
+
+<body>
+<div class="logo">
+         <img class="avatar" src="imagenes/mario.jpg" alt="logo de FAzt">
+         <h1>Ingrese Aqui</h1>
+
+
+<br>
+<center>Escribe una supuesta contraseña dos veces, una en cada campo, y pulsa el botón. Javascript te dirá si las dos son iguales.</center>
+
+<form action="" name="f1"><br>
+Contraseña: <input type="password" name="clave1" size="20">
+
+Repite contraseña: <input type="password" name="clave2" size="20">
+<br>
+<input type="button" value="Comprobar si son iguales" onClick="comprobarClave()">
+
+</form>
+
+            
+            <a href="#">¿No tienes cuenta? </a><br>
+            <a href="#">¿Has perdido tu contraseña?</a>
+
+         
+      </div>
+      <br>
+
+
+</body>
+</html>

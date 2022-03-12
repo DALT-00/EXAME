@@ -1,0 +1,28 @@
+.sobre  h1{
+	
+	text-align: center;
+	font-size:30px ;
+	
+}
+.sobre p{
+	margin: 0;
+	padding:0 0 20px ;
+	text-align: left;
+	font-size:20px ;
+	font-family: arial;
+}
+ 
+ .fotos .pelen{
+
+	width: 400;
+	height: 225px;
+	
+	
+ }
+ .fotos2 .diego{
+
+	width: 225px;
+	height: 225px;
+	
+	
+ }
